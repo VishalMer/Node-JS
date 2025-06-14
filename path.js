@@ -15,12 +15,13 @@ const filePath = "E:\Projects\Node JS\Files\Sample.txt";
 // const SampleFile = "Sample.txt";
 // console.log(path.join(path.dirname(filePath), SampleFile));
 
-const fs = require("fs");  //Filesystem
+  //Filesystem
 //console.log(fs); //Displays filesystem methods
 
 //Reading from a file
-// fs.readFile(filePath, (err, data) => {
-fs.readFile(filePath, "utf-8", (err, data) => {
-    if(err) throw new Error("Somehting went wrong!");
+const fs = require("fs");
+ fs.readFile(filePath, (err, data) => {
+//fs.readFile(filePath, "utf-8", (err, data) => {
+    //if(err) throw new Error("Somehting went wrong!");
     console.log(data);
 });
