@@ -1,4 +1,4 @@
-//syncronous
+//sync
 // console.log("Start");
 
 // function sleep(milliseconds){
@@ -14,7 +14,7 @@
 // console.log("do Something else...");
 
 
-//asncrounous manner
+//async
 console.log("Start");
 
 function sleep(milliseconds){
