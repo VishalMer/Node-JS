@@ -1,11 +1,11 @@
 {
   "name": "nodejs-practice",
   "version": "1.0.0",
-  "description": "This is nodejs practice",
-  "main": "index.js",
+  "description": "This is nodejs CRUD API Project",
+  "main": "Server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon CRUD_API/Server.js"
   },
   "author": "Vishal Mer",
   "license": "ISC",
@@ -20,5 +20,13 @@
     "minimist": "^1.2.8",
     "progress": "^2.0.3",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishalMer/Node-JS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VishalMer/Node-JS/issues"
+  },
+  "homepage": "https://github.com/VishalMer/Node-JS#readme"
 }
