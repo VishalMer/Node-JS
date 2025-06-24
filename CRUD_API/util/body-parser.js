@@ -1,6 +1,4 @@
-const { chunk, reject } =  require("lodash");
-
-module.exports = async (request) => {
+module.exports = async  (request) => {
     return new Promise((resolve,reject) => {
         try {
             let body = "";
