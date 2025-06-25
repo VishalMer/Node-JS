@@ -12,7 +12,8 @@ module.exports = async (req,res) => {
         }catch(err){
              console.log(err);
              res.writeHead(400,{"COntent-Type": "application/json"});
-             res.end(JSON.stringify({
+             res.end(
+                JSON.stringify({
                 title: "Validation Failed!",
                 mesaage: "Request body is not valid!",
              })
