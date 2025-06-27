@@ -2,10 +2,10 @@
   "name": "nodejs-practice",
   "version": "1.0.0",
   "description": "This is nodejs CRUD API Project",
-  "main": "Server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon CRUD_API/Server.js"
+    "start": "nodemon Express-App/index.js"
   },
   "author": "Vishal Mer",
   "license": "ISC",
