@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon Express-App/index.js"
+    "start": "nodemon Middlewares/index.js"
   },
   "author": "Vishal Mer",
   "license": "ISC",
